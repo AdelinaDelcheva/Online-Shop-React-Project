@@ -1,8 +1,8 @@
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a simple web app where using Vite, React and Server can buy some products, add a new product to the server.
+  =>Demonstrate fundamental experience with React and its components. 
+  =>Hooks, state and toastr notifications
+  =>Using HTML5 and CSS as well as JS
+  

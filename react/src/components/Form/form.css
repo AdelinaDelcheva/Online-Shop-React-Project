@@ -1,0 +1,33 @@
+.shopping-cart__container > form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #2b2e35;
+    color: #fff;
+    padding:2.5rem 2.5rem 2.5rem 2.5rem;
+   
+  }
+  
+  .shopping-cart__form-control > input[type="text"], input[type="number"] {
+    
+    border: 1px solid black;
+    padding: 16px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 10px;
+  }
+  
+  .shopping-cart__form-control > button {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    background-color: #b8d87f;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    align-items: center;
+  }

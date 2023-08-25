@@ -1,0 +1,120 @@
+#hero{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+  .shopping-cart__items-list {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 2rem;
+    width: 75%;
+}
+
+  .btnContainer{
+    display: flex;
+    align-items: center;
+    gap:8px;
+  }
+  .btnContainer input{
+    padding: 12px;
+  }
+  .btnContainer button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+  }
+
+  .shopping-cart__item--remove-btn {
+    color: red;
+  }
+  
+  .shopping-cart__item-actions > button:hover {
+    color: #3F51B5;
+    border-bottom: 1px solid #3F51B5;
+  }
+  
+  svg {
+    width: 15x;
+    height: 15px;
+  }
+
+  .grid-product.square.fav{
+    box-shadow: 4px 3px 16px 4px rgba(0,0,0,0.19);
+   
+    width: 22%;
+   
+    /* text-decoration: line-through; */
+  
+  }
+
+  .image-border{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.image-border img{
+    width: 100%;
+    height: 300px;
+
+}
+
+.grid-product .price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+     padding: 15px;
+     font-weight: bold;
+     background-color: #aab5c0;
+   }
+
+   .shopping-cart__item-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .shopping-cart__item-actions > button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  button.icon-only {
+    width: 18px;
+    font-size: 8px;
+  }
+  
+  button.icon-only .material-icons {
+    font-size: 14px;
+  }
+  
+  .cart-quantity {
+    max-width: 38px;
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+    height: 28px;
+  }
+  
+  .cart-quantity::-webkit-inner-spin-button,
+  .cart-quantity::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
